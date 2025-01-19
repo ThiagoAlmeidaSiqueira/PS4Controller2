@@ -1,21 +1,23 @@
+enum button_enum {
+    BOTAO_X,
+    BOTAO_CIRCULO,
+    BOTAO_TRIANGULO,
+    BOTAO_QUADRADO,
+    L1,
+    R1
+};
+enum axis_enum {
+    JOY_ESQ_X,
+    JOY_ESQ_Y,
+    JOY_DIR_X,
+    JOY_DIR_Y,
+    L2,
+    R2
+};
+
 //% weight=100 color=#00A0E9 icon="\uf11b" block="PS4 Controller"
 namespace PS4Controller {
-    enum button_enum {
-        BOTAO_X,
-        BOTAO_CIRCULO,
-        BOTAO_TRIANGULO,
-        BOTAO_QUADRADO,
-        L1,
-        R1
-    };
-    enum axis_enum {
-        JOY_ESQ_X,
-        JOY_ESQ_Y,
-        JOY_DIR_X,
-        JOY_DIR_Y,
-        L2,
-        R2
-    };
+
 
     const serialDelimiter = "\n";
 
