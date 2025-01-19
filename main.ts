@@ -1,3 +1,4 @@
+//% weight=100 color=#00A0E9 icon="\uf11b" block="PS4 Controller"
 namespace PS4Controller {
     enum button_enum {
         BOTAO_X,
